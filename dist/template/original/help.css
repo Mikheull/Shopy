@@ -1,0 +1,29 @@
+.home {margin: 10vh auto}
+.home .title {margin: 2vh auto;text-align: center}
+.home .title h2 {color: var(--primary-color);font-weight: 600;text-transform: uppercase}
+
+.home .search {width: 100%;border: solid 1px var(--primary-color);border-radius: 6px}
+.home .search .input_field {width: 95%;padding: 0;display: flex}
+.home .search .input_field input {width: 95%;padding: 15px 10px;border: none;font-size: 1rem}
+.home .search .input_field button {border: none;background: none;font-size: 1.2rem;color: var(--primary-color)}
+
+.home .help-container {margin: 10vh auto 5vh;max-height: 100vh;overflow: scroll}
+.home .help-container .help-item {margin: 15px 0;background: var(--white-color);padding: 10px;border-radius: 3px}
+.home .help-container .help-item .icon {width: 100%;height: 100%;padding: 15px 0;background: var(--primary-color);text-align: center;color: #FFF;font-weight: bold;font-size: 2rem;border-radius: 6px}
+.home .help-container .help-item .name {font-size: 1.2rem;color: var(--primary-color)}
+.home .help-container .help-item .inf {font-size: .7rem}
+.home .help-container .help-item .inf strong {font-weight: bold;color: var(--primary-color)}
+.home .help-container .help-item .text {margin-top: 15px}
+
+.home .lk {margin: 2vh auto;text-align: center}
+.home .lk span {font-weight: bold;color: var(--primary-color)}
+
+
+.article {margin: 10vh auto}
+.article .head {margin: 5vh auto}
+.article .title {margin: 2vh auto;text-align: center}
+.article .title h2 {color: var(--primary-color);font-weight: 600;text-transform: uppercase}
+.article .subtitle {text-align: center;font-style: italic}
+.article strong {font-weight: bold;color: var(--primary-color)}
+
+.spacer {width: 70%;margin: 10vh 15%;background: #DDDDDD;height: 2px}

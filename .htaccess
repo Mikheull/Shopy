@@ -1,0 +1,7 @@
+# Activation du mod rewrite d'Apache 
+RewriteEngine on
+
+# Various rewrite rules.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?query=$1 [NC,L]

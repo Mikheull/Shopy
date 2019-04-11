@@ -1,0 +1,124 @@
+
+
+/*
+* Shopy V2.0.0
+* 
+* Couleur primaire = #4E52AB
+* Couleur secondaire = #f03e3e
+* Couleur de blanc = #F5F5F5
+* Couleur de noir = #161D25
+*/
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Base Styles
+- Header
+- Général
+- Footer
+- Typography
+- Links
+- Buttons
+- Forms
+- Utilities
+- Media Queries
+*/
+
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+:root {
+    --primary-color: #4E52AB;
+    --secondary-color: #382799;
+    --black-color: #161D25;
+    --white-color: #F5F5F5;
+}
+::selection { color: var(--primary-color);}
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#header .message-news {background: var(--black-color);width: 100%;color: #FFF;padding: 10px 0;font-size: .9rem;text-align: center}
+#header .head {background: var(--white-color);width: 100%;}
+#header .head .brand {padding: 10px 0 20px}
+#header .head .search {width: 100%;}
+#header .head .search input {margin-left: 25%;width: 50%;height: 30px;border-radius: 6px;border: solid 1px #DDDDDD;font-size: .7rem;padding-left: 5px}
+#header .head .search button {padding: 0 10px;height: 30px;border-radius: 6px;border: none;background: #161d25;color: #FFF}
+#header .head .menu .menu-item {display: inline-block;margin: 0 5px}
+#header .head .menu .menu-item a {font-size: 1.2rem;cursor: pointer}
+#header .head .navigation nav ul li {display: inline-block;margin-right: 10px;padding-bottom: 10px}
+#header .head .navigation nav ul li a {color: #000;font-size: 1.1rem}
+
+
+
+/* Main
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+button {cursor: pointer;}
+/* Input field */
+.input_field {padding: 1vh 0.5vw;width: 95%;height: auto;width: auto;display: inline-block}
+.input_field label {display: block;text-transform: uppercase;font-size: .8em;font-weight: bold;padding-bottom: 1vh}
+.input_field textarea, input[type="text"], input[type="number"], input[type="email"], input[type="password"] {padding: 5px;height: 2.4em;border: none;border-radius: 6px;border: 1px solid #ced4da;background: #ffffff;width: 100%;}
+.input_field input:focus, textarea:focus {border: 1px solid #3b94ee;}
+.input_field button {margin: 5px 0;display: inline-block}
+
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#footer {background: var(--black-color);width: 100%;color: #FFF;padding-top: 5vh}
+#footer .title {color: #FFF;text-transform: uppercase;padding: 10px 0;border-bottom: solid 2px #2b2e30;}
+#footer .content {color: #FFF;margin: 15px 0;}
+#footer .content li {margin: 5px 0}
+#footer .content a {color: #A1A1A1;font-size: .9rem}
+
+#footer .copyright {color: #A1A1A1;padding: 10px 0;font-size: .9rem;text-align: center;margin-top: 15px}
+
+
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body { font-family: 'Nunito', sans-serif; }
+h1 {font-family: 'Nunito', sans-serif; color: var(--black-color); font-size: 2.5em;font-weight: 400}
+h2 {font-family: 'Nunito', sans-serif; color: var(--black-color); font-size: 2em;font-weight: 400}
+
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+a {color: var(--black-color)}
+a:hover {color: #262E3E}
+
+
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Extra large */
+@media (min-width: 1141px) {
+
+}
+
+/* Large */
+@media (min-width: 991px) and (max-width: 1140px) {
+
+}
+
+/* Medium */
+@media (min-width: 721px) and (max-width: 990px) {
+
+}
+  
+/*  Small */
+@media (min-width: 561px) and (max-width: 720px) {
+
+}
+  
+/* Extra small */ 
+@media (max-width: 560px) {
+
+}
