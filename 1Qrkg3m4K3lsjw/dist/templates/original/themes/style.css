@@ -1,0 +1,48 @@
+body {background: #f8f9fa;color: #16191d;font-family: 'Nunito', sans-serif;margin: 0}
+
+
+.header_navbar {background: #131b21;height: 100vh;width: 100%}
+.header_navbar .brand {text-align: center}
+.header_navbar .brand a {color: #FFF;font-size: 1.5em}
+.header_navbar nav ul li {margin: 15px 25px}
+.header_navbar nav ul li .icon {width: 18px;height: 18px;margin-right: 15px;fill: #FFF;}
+.header_navbar nav ul li a {color: #FFF;cursor: pointer}
+.header_navbar nav ul li .down {float: right;margin: 0 25px;color: #FFF;}
+.header_navbar nav ul li .submenu {margin: 0 20px;}
+.header_navbar nav ul li .submenu a {color: #6c7783;}
+
+
+.hidden {display: none}
+
+
+
+/* Alert */
+
+.alert {width: 90%;margin: 25px 5%;border-left: solid 3px;border-radius: 1px}
+.alert .head {width: 100%;}
+.alert .head .icon {font-size: 1.5em;padding: 25px 5px 5px 15px;display: inline-block}
+.alert .head .title {font-size: 1.1em;padding: 25px 5px;display: inline-block;font-weight: bold}
+.alert .head .reduce {font-size: 1.5em;padding: 25px 25px;float: right;cursor: pointer}
+.alert .text {padding: 5px 15px;line-height: 1.3}
+.alert.success {background: #ecfad8;border-color: #9bd649;color: #6eac18}
+.alert.information {background: #f6fafd;border-color: #469bcd;color: #469bcd}
+.alert.danger {background: #fcd8d5;border-color: #cc443a;color: #b1241a}
+
+
+
+/* Input field */
+.input_field {padding: 1vh 0.5vw;width: 95%;height: auto;width: auto;display: inline-block}
+.input_field label {display: block;text-transform: uppercase;font-size: .8em;font-weight: bold;padding-bottom: 1vh}
+.input_field textarea, input[type="text"], input[type="number"], input[type="email"], input[type="password"] {padding: 5px;height: 2.4em;border: none;border-radius: 6px;border: 1px solid #ced4da;background: #ffffff;width: 100%;}
+.input_field input:focus, textarea:focus {border: 1px solid #3b94ee;}
+.input_field button {margin: 5px 0;display: inline-block}
+
+
+
+
+/* 404 */
+
+.error404 {width: 100%;height: calc(100vh - 140px);text-align: center}
+.error404 h2 {font-size: 4em;font-weight: bold;text-transform: uppercase;margin-top: 25vh}
+.error404 h3 {font-size: 2.5em;margin: 25px 0}
+.error404 a {margin-top: 25px;background: #000;color: #FFF;border-radius: 3px;padding: 5px}

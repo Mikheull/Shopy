@@ -1,13 +1,15 @@
-<header class="top_header">
-    <?php require ('view/components/header.php'); ?>
-</header>
+<?php
+require ('controller/user.php');
 
+$page = 'login';
 
-    <section class="body">
-        body
-    </section>
+if(isset($queryURI) && isset($queryURI[1])){
 
+    $array = ['login', 'register','reset-password'];
+    if(in_array($queryURI[1], $array)){
+        $page = $queryURI[1];
+    }
 
-<footer>
-    <?php require ('view/components/footer.php'); ?>
-</footer>
+}
+
+require ('view/pages/auth/pages/'. $page .'/index.php');

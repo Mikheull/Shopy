@@ -1,0 +1,6 @@
+
+.center {width: 70%;margin: 0 15%;float: left;text-align: center}
+.center h2 {text-align: center;margin: 25vh 0 10vh;font-weight: bold;font-size: 2em}
+.center input[type="email"], input[type="password"] {width: 30%;margin: 20px 35%;display: block}
+.center .button {width: 100%;margin: 5vh 0}
+.center button {border-radius: 3px;border: none;background: #4e52ab;color: #f8f9fa;padding: 10px 15px;font-size: .8em;cursor: pointer;}

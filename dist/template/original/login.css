@@ -1,0 +1,11 @@
+
+.reg_form {width: 40%;float: left;margin: 10vh 30%}
+.reg_form h2 {font-size: 1.6em;font-weight: bold;color: #4e52ab}
+
+.reg_form .form {width: 100%;margin: 5vh 0}
+.reg_form .form .input_field {width: 100%;}
+.reg_form .form .checkbox input {float: left;margin: 17px 10px 0 5px}
+.reg_form .form .checkbox label {float: left;}
+
+.reg_form .form .button-log {width: 50%;margin: 10vh 25% 0;}
+.reg_form .form .button-log input {width: 100%;background: #4e52ab;color: #FFF;border-radius: 3px;padding: 15px 0;border: none;text-transform: uppercase;font-weight: bold;cursor: pointer;}
